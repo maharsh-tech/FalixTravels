@@ -23,6 +23,7 @@ Project - JS/
 ├── styles.css          # CSS styles and responsive design
 ├── script.js           # JavaScript functionality
 └── README.md           # Project documentation
+```
 
 ## 🎨 Design Features
 
