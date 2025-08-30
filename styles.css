@@ -517,7 +517,7 @@ body {
     color: #bdc3c7;
 }
 
-/* Responsive Design */
+/* Responsive Design - Fixed*/
 @media (max-width: 768px) {
     .hamburger {
         display: flex;
