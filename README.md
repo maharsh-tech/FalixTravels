@@ -45,13 +45,6 @@ Project - JS/
   - Notification system
   - Keyboard navigation support
 
-## 📱 Browser Compatibility
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-- Mobile browsers (iOS Safari, Chrome Mobile)
 
 ## 🎯 User Experience
 
@@ -60,10 +53,6 @@ Project - JS/
 - **Interactive Elements**: Clickable cards, hover effects, and smooth animations
 - **Accessibility**: Keyboard navigation and semantic HTML structure
 - **Performance**: Optimized images and efficient JavaScript
-
-## 📞 Contact Information
-
-For questions about this project or travel recommendations, use the contact form on the website or reach out through the provided contact information.
 
 ## 📄 License
 
