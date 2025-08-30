@@ -523,6 +523,14 @@ body {
         display: flex;
     }
 
+    body {
+        padding: 0 8px;
+    }
+
+    .container {
+        padding: 0 8px;
+    }
+
     .nav-menu {
         position: fixed;
         left: -100%;
@@ -554,6 +562,25 @@ body {
         font-size: 2.5rem;
     }
 
+    .hero-image img {
+        height: auto;
+        max-width: 100%;
+        min-height: 200px;
+    }
+
+    .cta-button {
+        width: 100%;
+        padding: 18px 0;
+        font-size: 1.2rem;
+    }
+
+    input, button, textarea {
+        font-size: 1.1rem;
+        padding: 14px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
     .about-content {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -571,20 +598,65 @@ body {
     .destination-grid {
         grid-template-columns: 1fr;
     }
+    section, .section {
+        padding-left: 0;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 480px) {
     .hero-content h1 {
-        font-size: 2rem;
+        font-size: 1.1rem;
+        line-height: 1.2;
+    }
+
+    .hero-content p {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
     }
 
     .recommendations h2,
     #about h2 {
-        font-size: 2rem;
+        font-size: 1.1rem;
+    }
+
+    .recommendation-section h3 {
+        font-size: 1rem;
     }
 
     .about-stats {
         grid-template-columns: 1fr;
+    }
+
+    .cta-button {
+        font-size: 0.95rem;
+        padding: 10px 0;
+    }
+
+    input, button, textarea {
+        font-size: 0.95rem;
+        padding: 10px;
+    }
+
+    .nav-logo {
+        font-size: 1.1rem;
+    }
+
+    .nav-logo i {
+        font-size: 1.2rem;
+    }
+
+    .nav-link {
+        font-size: 0.95rem;
+    }
+
+    .section {
+        padding: 60px 0 30px;
+    }
+
+    .hero-image img {
+        min-height: 120px;
+        border-radius: 12px;
     }
 }
 
